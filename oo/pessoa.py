@@ -1,6 +1,6 @@
 class Pessoa:
     def cumprimentar(self):
-        return 'Olá {id(self)}'
+        return f'Olá {id(self)}'
 
 
  if __name__ == ' main ':
