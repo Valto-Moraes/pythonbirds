@@ -8,9 +8,9 @@ class Pessoa:
         return f'Olá {id(self)}'
 
 
- if __name__ == ' main ':
-     valto = Pessoa('nome=Valto')
-     luciano = Pessoa(valto, 'nome=Luciano')
+if __name__ == '__main__':
+     valto = Pessoa(nome='Valto')
+     luciano = Pessoa(valto, nome='Luciano')
      print(Pessoa.cumprimentar(luciano))
      print(id(luciano))
      print(luciano.cumprimentar())
